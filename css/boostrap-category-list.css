@@ -1,0 +1,52 @@
+
+/* ref : https://bootsnipp.com/snippets/BqVdE */
+.single {
+    padding: 30px 15px;
+    margin-top: 40px;
+    background: #fcfcfc;
+    border: 1px solid #f0f0f0;
+    text-align: left;
+}
+.single h3.side-title {
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+}
+.single h3.side-title:after {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background: #4586FF;
+    display: block;
+    margin-top: 6px;
+}
+.single ul {
+    margin-bottom: 0;
+}
+.single li {
+    color: #666;
+    display: block;
+    text-decoration: none;
+}
+.single li>a{
+    text-decoration: underline;
+    color: #4586FF;
+}
+.single li ,.single li>a {
+    
+    font-size: 14px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #f0f0f0;
+    /* line-height: 40px; */
+    padding: 9px 0;
+}
+
+/* .single li>a:hover {
+    color: #4586FF;
+} */
+.single li:last-child a {
+    border-bottom: 0;
+}

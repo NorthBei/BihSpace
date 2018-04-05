@@ -1,0 +1,122 @@
+include mixin.pug
+
+doctype html
+html(lang='zh-Tw')
+    head
+        title Bih Story
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        meta(name='description', content='畢恆達 H.D.Bih')
+        meta(name='keywords', content='出版書籍 文章 學術出版 性別與空間 人與環境')
+        meta(name='author', content='畢恆達')
+
+        link(href='https://fonts.googleapis.com/css?family=Raleway', rel='stylesheet')
+        link(rel='stylesheet', href='css/bootstrap.min.css')
+        link(rel='stylesheet', href='css/open-iconic-bootstrap.min.css')
+        link(rel='stylesheet', href='css/animate.css')
+        link(rel='stylesheet', href='css/owl.carousel.min.css')
+        link(rel='stylesheet', href='css/owl.theme.default.min.css')
+        link(rel='stylesheet', href='css/icomoon.css')
+        link(rel='stylesheet', href='css/style.css')
+
+        block styles
+
+    body(data-spy='scroll', data-target='#ftco-navbar', data-offset='200')
+        nav#ftco-navbar.navbar.navbar-expand-lg.navbar-dark.ftco_navbar.bg-dark.ftco-navbar-light
+            .container
+                a.navbar-brand(href='index.html') 
+                    //-Bih
+                    img(src='../../images/space.png')#logo
+                button.navbar-toggler(type='button', data-toggle='collapse', data-target='#ftco-nav', aria-controls='ftco-nav', aria-expanded='false', aria-label='Toggle navigation')
+                    span.oi.oi-menu
+                    |  Menu
+                #ftco-nav.collapse.navbar-collapse
+                    ul.navbar-nav.ml-auto
+                        li.nav-item.active
+                            a.nav-link(href='index.html') 首頁
+                        li.nav-item
+                            a.nav-link(href='index.html#section-books') 書籍
+                        li.nav-item
+                            a.nav-link(href='article.html') 雜文
+                        li.nav-item
+                            a.nav-link(href='publication.html') 學術論文
+                        li.nav-item
+                            a.nav-link(href='gender-space.html') 性別與空間
+                        li.nav-item
+                            a.nav-link(href='relation.html') 人與環境關係
+                        li.nav-item
+                            a.nav-link(href='course.html') 課程與書目
+        // END nav
+        
+        block content
+
+        footer.ftco-footer.ftco-bg-dark
+            .container
+                .row.mb-5
+                    .col-md-8
+                        .row
+                            .col-md
+                                .ftco-footer-widget.mb-4
+                                    h2.ftco-heading-2 Contact
+                                    ul.list-unstyled
+                                        li
+                                            a.py-2.d-block(href='mailto:hdbih@ntu.edu.tw') hdbih@ntu.edu.tw
+                                        li
+                                            a.py-2.d-block(href='https://www.facebook.com/hdbih') Facebook
+                            //-.col-md
+                                .ftco-footer-widget.mb-4
+                                    h2.ftco-heading-2 Communities
+                                    ul.list-unstyled
+                                        li
+                                            a.py-2.d-block(href='#') Support
+                                        li
+                                            a.py-2.d-block(href='#') Sharing is Caring
+                                        li
+                                            a.py-2.d-block(href='#') Better Web
+                                        li
+                                            a.py-2.d-block(href='#') Good Template
+                            //-.col-md
+                                .ftco-footer-widget.mb-4
+                                    h2.ftco-heading-2 Useful links
+                                    ul.list-unstyled
+                                        li
+                                            a.py-2.d-block(href='#') Bootstrap 4
+                                        li
+                                            a.py-2.d-block(href='#') jQuery
+                                        li
+                                            a.py-2.d-block(href='#') HTML5
+                                        li
+                                            a.py-2.d-block(href='#') Sass
+                    .col-md-4
+                        .ftco-footer-widget.mb-4
+                            ul.ftco-footer-social.list-unstyled.float-md-right.float-lft
+                                // <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                li
+                                    a(href='https://www.facebook.com/hdbih')
+                                        span.icon-facebook
+                                // <li><a href="#"><span class="icon-instagram"></span></a></li>
+                .row
+                    .col-md.text-left
+                        p
+                            | ©
+                            // Exclusivity 2017.
+                            | 2018. All Rights Reserved. 
+                            //- Made with
+                            //- <span class="icon-penheart text-danger"></span>
+                            //-| by NorthBei
+                            //- <a href="https://free-template.co/">Free-Template.co</a>
+        // loader
+        #ftco-loader.show.fullscreen
+            svg.circular(width='48px', height='48px')
+                circle.path-bg(cx='24', cy='24', r='22', fill='none', stroke-width='4', stroke='#eeeeee')
+                circle.path(cx='24', cy='24', r='22', fill='none', stroke-width='4', stroke-miterlimit='10', stroke='#4586ff')
+        script(src='js/jquery.min.js')
+        script(src='js/popper.min.js')
+        script(src='js/bootstrap.min.js')
+        script(src='js/jquery.easing.1.3.js')
+        script(src='js/jquery.waypoints.min.js')
+        script(src='js/owl.carousel.min.js')
+        script(src='js/jquery.animateNumber.min.js')
+        script(src='js/main.js')
+
+        block scripts

@@ -1,0 +1,45 @@
+extends ./base.pug
+
+block styles
+    +categoryListCSS(true)
+
+    style.
+        .ftco-slant.ftco-slant-white:after {
+            background: #f2f2f2;
+        }
+
+block content
+    +headerColorBlock('課程與書目','banner-course-min.jpg')
+
+    section#section-faq.ftco-section.ftco-slant.ftco-slant-light.bg-light.ftco-slant.ftco-slant-white
+        .container
+            .row
+                .col-sm-12
+                    // Category
+                    .single.category
+                        h3.side-title 課程與書目列表
+                        ul.list-unstyled
+                            li 
+                                | 人與環境關係導論 
+                                a.btn.btn-primary.pull-right(href='./download/課程與書目/人與環境關係導論.doc') 課程書目下載
+                            li 
+                                | 男-性-空間 
+                                a.btn.btn-primary.pull-right(href='./download/課程與書目/男-性-空間.doc') 課程書目下載
+                            li 
+                                | 性別與空間書目 
+                                a.btn.btn-primary.pull-right(href='./download/課程與書目/性別與空間書目.doc') 課程書目下載
+                            li 
+                                | 性別與環境 
+                                a.btn.btn-primary.pull-right(href='./download/課程與書目/性別與環境.doc') 課程書目下載
+                            li 
+                                | 塗鴉書目 
+                                a.btn.btn-primary.pull-right(href='./download/課程與書目/塗鴉書目.doc') 課程書目下載
+                            li 
+                                | 質性研究
+                                a.btn.btn-primary.pull-right(href='./download/課程與書目/質性研究.doc') 課程書目下載
+                            li 
+                                | 環境心理學 
+                                a.btn.btn-primary.pull-right(href='./download/課程與書目/環境心理學.doc') 課程書目下載
+                            li 
+                                | 環境心理學書目 
+                                a.btn.btn-primary.pull-right(href='./download/課程與書目/環境心理學書目.doc') 課程書目下載
