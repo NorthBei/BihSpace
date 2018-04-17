@@ -615,3 +615,7 @@ button:focus{
 #recommend-books>.col-md-6{
   padding: 0 70px;
 }
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  font-size: 17px;
+}
